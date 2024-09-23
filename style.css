@@ -1,25 +1,33 @@
 h1 {
-    display: flexbox; color:maroon;
+    display: flexbox;
+    color: maroon;
     background-color: black;
     border-bottom: 5px solid maroon;
-    border-top: 5px solid; 
-    color: maroon;
+    border-top: 5px solid;
+    color: whitesmoke;
     text-align: center;
     border-radius: 10px;
+    border-color: white;
 }
-h2{
+
+h2 {
+    display: flexbox;
     margin: 50px;
-    text-decoration: underline solid maroon;
+    text-decoration: 4px underline solid black;
     text-transform: uppercase;
-    font-size: larger;
-    font-weight: bolder;
-    
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+
 }
-.welcome{
-    margin: 50px;
-    font-size: larger;
-    border-radius: black 2px;
-    
+
+.welcome {
+    margin-right: 100vh;
+    margin-bottom: 5vh;
+    margin-left: 5vh;
+margin-top: -5vh;
+    font-size: 10px;
+    color: white;
 }
 
 div {
@@ -27,23 +35,26 @@ div {
     background-color: black;
     align-items: center;
     justify-content: space-evenly;
-    flex-direction:row-reverse;
+    flex-direction: row-reverse;
     align-content: space-evenly;
     text-align: center;
     font-size: larger;
-    
+    color: white;
+    border-color: white;
+    border-radius: 10px;
 }
 
-section{
-    font-size: larger;
-    font-weight: bold;
-    display: flexbox;
-   align-items: center;
-   justify-content: flex-end;
-   margin: 90px;
-   
+section {
+    font-size: 20px;
+    text-decoration: underline;
+    text-size-adjust: 5vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
 
-   }
+     
+    }
 
 img {
     display: flexbox;
@@ -53,12 +64,57 @@ img {
     flex-direction: row-reverse;
 }
 
-h3{
-   display: flexbox; 
-   margin: 50px;
-   font-size: larger;
-   font-weight: bolder;
-   text-decoration: underline solid maroon; 
-   text-transform: uppercase;
+h3 {
+    display: flexbox;
+    margin: 50px;
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: 4px underline solid black;
+    text-transform: uppercase;
+    text-align: right;
+    color: white;
 }
 
+#HOME {
+    text-align: right;
+    font-size: larger;
+    margin-left: 100vh;
+    align-items: flex-start;
+    font-size: 10px;
+    color: white;
+}
+
+button:hover {
+    font-size: small;
+    background-color: maroon;
+    cursor: pointer;
+
+
+}
+
+body {
+    background-color: maroon;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    display: flexbox;
+    justify-content: space-between;
+}
+
+Footer ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+    font-size: 10px;
+}
