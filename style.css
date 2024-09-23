@@ -1,0 +1,64 @@
+h1 {
+    display: flexbox; color:maroon;
+    background-color: black;
+    border-bottom: 5px solid maroon;
+    border-top: 5px solid; 
+    color: maroon;
+    text-align: center;
+    border-radius: 10px;
+}
+h2{
+    margin: 50px;
+    text-decoration: underline solid maroon;
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: bolder;
+    
+}
+.welcome{
+    margin: 50px;
+    font-size: larger;
+    border-radius: black 2px;
+    
+}
+
+div {
+    display: flexbox;
+    background-color: black;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction:row-reverse;
+    align-content: space-evenly;
+    text-align: center;
+    font-size: larger;
+    
+}
+
+section{
+    font-size: larger;
+    font-weight: bold;
+    display: flexbox;
+   align-items: center;
+   justify-content: flex-end;
+   margin: 90px;
+   
+
+   }
+
+img {
+    display: flexbox;
+    height: 30vh;
+    width: 30vh;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+
+h3{
+   display: flexbox; 
+   margin: 50px;
+   font-size: larger;
+   font-weight: bolder;
+   text-decoration: underline solid maroon; 
+   text-transform: uppercase;
+}
+
